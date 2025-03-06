@@ -52,7 +52,7 @@ const ChallengeIntro: React.FC = () => {
         </div>
         
         <div className="info-card mb-6">
-          <p className="text-sm font-medium">Complete all steps to earn a secret flag!</p>
+          <p className="text-sm font-medium">Completați toți pașii pentru a obține un steag secret!</p>
         </div>
         
         <Button 
@@ -60,7 +60,7 @@ const ChallengeIntro: React.FC = () => {
           onClick={() => setIsIntroCompleted(true)}
           className="bg-primary text-primary-foreground hover:bg-primary/90 transition-all"
         >
-          Start Challenge <ArrowRight className="ml-2 h-4 w-4" />
+          Începe Provocarea <ArrowRight className="ml-2 h-4 w-4" />
         </Button>
       </div>
     </div>

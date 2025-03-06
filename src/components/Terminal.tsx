@@ -30,19 +30,19 @@ const Terminal: React.FC = () => {
         className="terminal-body flex-grow font-mono text-sm overflow-y-auto"
       >
         <div className={cn("pb-2", terminalHistory.length === 0 && "typing-effect")}>
-          Welcome to Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-86-generic x86_64)
+          Bun venit la Ubuntu 20.04.3 LTS (GNU/Linux 5.4.0-86-generic x86_64)
           <br />
           <br />
-          * Documentation:  https://help.ubuntu.com
+          * Documentație:  https://help.ubuntu.com
           <br />
           * Management:     https://landscape.canonical.com
           <br />
-          * Support:        https://ubuntu.com/advantage
+          * Suport:        https://ubuntu.com/advantage
           <br />
           <br />
-          SFTP Server Challenge - Configure secure file sharing
+          Provocare Server SFTP - Configurați partajarea securizată de fișiere
           <br />
-          Follow the instructions to complete each step of the challenge.
+          Urmați instrucțiunile pentru a finaliza fiecare pas al provocării.
           <br />
           <br />
         </div>

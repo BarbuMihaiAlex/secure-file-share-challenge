@@ -27,7 +27,7 @@ const InfoPanel: React.FC = () => {
       
       {stepData.hint && (
         <div className="mt-4 pt-4 border-t border-terminal-muted/20">
-          <h4 className="font-medium text-sm mb-1">Hint:</h4>
+          <h4 className="font-medium text-sm mb-1">Indiciu:</h4>
           <p className="text-sm text-terminal-muted">{stepData.hint}</p>
         </div>
       )}

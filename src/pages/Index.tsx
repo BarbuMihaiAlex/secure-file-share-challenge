@@ -32,7 +32,7 @@ const ChallengePage: React.FC = () => {
         <header className="flex justify-between items-center mb-6">
           <div className="flex items-center">
             <Server className="h-6 w-6 mr-2 text-primary" />
-            <h1 className="text-2xl font-bold">SFTP Server Configuration Challenge</h1>
+            <h1 className="text-2xl font-bold">Provocare de Configurare Server SFTP</h1>
           </div>
           
           <Button 
@@ -42,7 +42,7 @@ const ChallengePage: React.FC = () => {
             className="flex items-center"
           >
             <RefreshCw className="h-4 w-4 mr-2" />
-            Reset Challenge
+            Resetează Provocarea
           </Button>
         </header>
         
@@ -52,7 +52,7 @@ const ChallengePage: React.FC = () => {
             <div className="glass-panel rounded-lg p-4 shadow-md">
               <h2 className="text-lg font-semibold mb-4 flex items-center">
                 <Info className="h-5 w-5 mr-2 text-primary" />
-                Challenge Progress
+                Progresul Provocării
               </h2>
               <ProgressTracker />
             </div>
@@ -63,13 +63,13 @@ const ChallengePage: React.FC = () => {
             {isCompleted ? (
               <div className="glass-panel rounded-lg p-8 text-center h-full flex flex-col items-center justify-center">
                 <Trophy className="h-16 w-16 text-terminal-success mb-4" />
-                <h2 className="text-2xl font-bold mb-4">Challenge Complete!</h2>
-                <p className="text-lg mb-6">Congratulations! You've successfully configured a secure SFTP server.</p>
+                <h2 className="text-2xl font-bold mb-4">Provocare Completă!</h2>
+                <p className="text-lg mb-6">Felicitări! Ați configurat cu succes un server SFTP securizat.</p>
                 <div className="code-block text-lg mb-8 px-6 py-4">
                   FLAG{'{secure_sftp_configured}'}
                 </div>
                 <Button onClick={resetChallenge}>
-                  Try Again
+                  Încearcă din nou
                 </Button>
               </div>
             ) : (
@@ -84,7 +84,7 @@ const ChallengePage: React.FC = () => {
             <div className="glass-panel rounded-lg overflow-hidden shadow-md">
               <div className="p-4">
                 <h2 className="text-lg font-semibold mb-4">
-                  {currentStepGroup ? currentStepGroup.title : 'Instructions'}
+                  {currentStepGroup ? currentStepGroup.title : 'Instrucțiuni'}
                 </h2>
                 
                 {stepData && (
@@ -95,7 +95,7 @@ const ChallengePage: React.FC = () => {
                     
                     {stepData.explanation && (
                       <div className="mt-4 text-sm text-muted-foreground">
-                        <h3 className="font-medium mb-1">Explanation:</h3>
+                        <h3 className="font-medium mb-1">Explicație:</h3>
                         <p>{stepData.explanation}</p>
                       </div>
                     )}
