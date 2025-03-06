@@ -39,8 +39,8 @@ const TerminalInput: React.FC<TerminalInputProps> = ({ onSubmit }) => {
       className="flex items-center w-full"
       onClick={handleWrapperClick}
     >
-      <div className="text-terminal-prompt mr-2">ubuntu@sftp-challenge:~$</div>
-      <form className="w-full" onSubmit={handleSubmit}>
+      <span className="text-terminal-prompt whitespace-nowrap">ubuntu@sftp-challenge:~$</span>
+      <form className="w-full ml-2" onSubmit={handleSubmit}>
         <input
           ref={inputRef}
           type="text"
