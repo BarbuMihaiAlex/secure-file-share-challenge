@@ -327,5 +327,5 @@ export const introContent = {
     
     Let's get started with building a secure file sharing solution!
   `,
-  flagDescription: "Complete all steps to earn the flag: FLAG{secure_sftp_configured}",
+  // Removed the flagDescription field to hide the flag until completion
 };

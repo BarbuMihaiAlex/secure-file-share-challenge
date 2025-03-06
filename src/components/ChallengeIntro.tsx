@@ -52,7 +52,7 @@ const ChallengeIntro: React.FC = () => {
         </div>
         
         <div className="info-card mb-6">
-          <p className="text-sm font-medium">{introContent.flagDescription}</p>
+          <p className="text-sm font-medium">Complete all steps to earn a secret flag!</p>
         </div>
         
         <Button 
