@@ -2,7 +2,6 @@
 import React from 'react';
 import { useChallenge } from '@/contexts/ChallengeContext';
 import { challengeSteps } from '@/data/challengeData';
-import { cn } from '@/lib/utils';
 import { Info } from 'lucide-react';
 
 const InfoPanel: React.FC = () => {
